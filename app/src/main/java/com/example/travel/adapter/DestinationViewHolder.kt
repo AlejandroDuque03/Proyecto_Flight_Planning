@@ -15,6 +15,7 @@ class DestinationViewHolder(view: View):RecyclerView.ViewHolder(view){
         binding.name.text = destinationsModel.destination
         binding.startFinished.text = destinationsModel.starFnished
         binding.off.text = destinationsModel.off
+        binding.viewDeal.text = destinationsModel.viewDeal
         Glide.with(binding.imageDestination.context).load(destinationsModel.photo).into(binding.imageDestination)
     }
 }

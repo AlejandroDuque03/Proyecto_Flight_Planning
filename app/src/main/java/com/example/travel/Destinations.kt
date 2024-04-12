@@ -6,5 +6,6 @@ data class Destinations(
     val destination: String,
     val starFnished: String,
     val off: String,
+    val viewDeal: String,
     val photo: String
 )
