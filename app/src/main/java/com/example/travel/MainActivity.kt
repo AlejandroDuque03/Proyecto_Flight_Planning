@@ -1,11 +1,14 @@
 package com.example.travel
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.ImageView
 import android.widget.TextView
 
 class MainActivity : AppCompatActivity() {
+    @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.sing_in)
@@ -23,6 +26,7 @@ class MainActivity : AppCompatActivity() {
         tvGohome.setOnClickListener {
             goTohome()
         }
+
     }
     private fun goToResgister(){
         val i = Intent(this, CreateCount::class.java)

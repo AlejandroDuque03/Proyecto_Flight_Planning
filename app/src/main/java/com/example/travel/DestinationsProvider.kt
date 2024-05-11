@@ -21,7 +21,7 @@ class DestinationsProvider {
                 "Hong Kong",
                 "BOG-HKG",
                 "90%off",
-                "View Deal",
+                "",
                 "https://lh5.googleusercontent.com/p/AF1QipNdqXoQuMB1jblQvZy2MdmD3rk9jbo7v36pbssL=w540-h312-n-k-no"
             ),
             Destinations(
