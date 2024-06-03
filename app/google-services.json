@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "968007853672",
+    "project_id": "flight-planning-2024",
+    "storage_bucket": "flight-planning-2024.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:968007853672:android:0be2b65ac6cb13cbb3bddd",
+        "android_client_info": {
+          "package_name": "com.example.travel"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIs7Wt0JPSg2AqBGE6BhOr0Kn7iz4Q6_I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

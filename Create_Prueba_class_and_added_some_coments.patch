@@ -1,0 +1,56 @@
+Subject: [PATCH] Create Prueba class and added some coments
+---
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(revision 450518e330dd75ec2a16bb227d16495fcdc41f1c)
++++ b/.idea/vcs.xml	(revision 450518e330dd75ec2a16bb227d16495fcdc41f1c)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: app/src/main/java/com/example/travel/DestinationsProvider.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/com/example/travel/DestinationsProvider.kt b/app/src/main/java/com/example/travel/DestinationsProvider.kt
+--- a/app/src/main/java/com/example/travel/DestinationsProvider.kt	(revision 3b61969fc24ab86cef22e9186b59e4a1cf47e247)
++++ b/app/src/main/java/com/example/travel/DestinationsProvider.kt	(revision 450518e330dd75ec2a16bb227d16495fcdc41f1c)
+@@ -26,7 +26,14 @@
+                 "BOG-FR",
+                 "15%off",
+                 "https://lh6.googleusercontent.com/proxy/VSDBMeOlHFia1rVgjtrzdD42kC-HsycxOoAOJ_VCsdrf1eGyS8-438Q3d5ZNb2nr8rNFxLRn6010qqIibO88yCK8tSWGlI9c4nZ4SpC3OuHk_771MhIgkGMUPNdhXZ3ytMcfVc54246Fipdt8_4UvcyhIAcAkKg=w540-h312-n-k-no"
++            ),
++            Destinations(
++                "Paris",
++                "BOG-FR",
++                "15%off",
++                "https://lh6.googleusercontent.com/proxy/VSDBMeOlHFia1rVgjtrzdD42kC-HsycxOoAOJ_VCsdrf1eGyS8-438Q3d5ZNb2nr8rNFxLRn6010qqIibO88yCK8tSWGlI9c4nZ4SpC3OuHk_771MhIgkGMUPNdhXZ3ytMcfVc54246Fipdt8_4UvcyhIAcAkKg=w540-h312-n-k-no"
+             )
++
+ 
+         )
+     }
+Index: app/src/main/java/com/example/travel/Prueba.kt
+===================================================================
+diff --git a/app/src/main/java/com/example/travel/Prueba.kt b/app/src/main/java/com/example/travel/Prueba.kt
+new file mode 100644
+--- /dev/null	(revision 450518e330dd75ec2a16bb227d16495fcdc41f1c)
++++ b/app/src/main/java/com/example/travel/Prueba.kt	(revision 450518e330dd75ec2a16bb227d16495fcdc41f1c)
+@@ -0,0 +1,6 @@
++package com.example.travel
++
++class Prueba {
++
++    //Esto es una prueba para saber si actualiza el git hub
++}
+\ No newline at end of file

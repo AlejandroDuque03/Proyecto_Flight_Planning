@@ -35,7 +35,7 @@ class Home : AppCompatActivity() {
 
     // Modificación: Ahora abriremos HotelsHome al hacer clic en un TextView
     private fun onTextViewClicked(destinations: Destinations) {
-        val intent = Intent(this, HotelsHome::class.java)
+        val intent = Intent(this, Hoteleslist::class.java)
         startActivity(intent)
     }
 }
